@@ -17,6 +17,7 @@ export const PrimaryButton: VFC<Props> = memo(
         color="white"
         _hover={{ opacity: 0.8 }}
         disabled={disabled || loading}
+        //isLoadingがtrueの時回転
         isLoading={loading}
         onClick={onClick}
       >
